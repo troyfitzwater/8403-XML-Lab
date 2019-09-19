@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<skills xmlns="resume:employment" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="../schemas/employment.xsd">
+    <job>
+        <title>Restaurant Staff</title>
+        <employer>Pleasnt Valley Inn</employer>
+        <location>
+            <city>Hammondsport</city>
+            <state>NY</state>
+        </location>
+        <time_employed>2012 - 2019</time_employed>
+        <responsibilities>
+            <responsibility>
+            ●	Coordinated and worked as a part of a team of 
+                multidisciplinary workers involving all aspects of the customer service business
+            </responsibility>
+            <responsibility>
+            ●	Provided an exceptional environment for 
+                customers through meeting their needs and creating an enjoyable atmosphere
+            </responsibility>
+            <responsibility>
+            ●	Upheld and enforced the high quality and standards that were associated with the 
+                restaurant’s brand through being highly detail-oriented in all areas of the business
+            </responsibility>
+        </responsibilities>
+    </job>
+</employment>

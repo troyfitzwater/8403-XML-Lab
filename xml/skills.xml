@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<skills xmlns="resume:skills" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="../schemas/skills.xsd">
+    <skill>
+    ●	Programming and web development proficiency 
+        in the following languages: HTML, CSS, JavaScript, 
+        C#, PHP, Python, Java, SQL
+    </skill>
+    <skill>
+    ●	Expertise with multiple web development frameworks, 
+        including: Bootstrap, Materialize, Bulma, ASP.NET Core and Laravel
+    </skill>
+    <skill>
+        ●Proficient in version control technologies using Git
+    </skill>
+    <skill>
+    ●	●Expertise in secure programming and modern design philosophies, including SOLID and REST
+    </skill>
+    <skill>
+        ●Experience managing and securing database technologies including MySQL and SQL Server
+    </skill>
+    <skill>
+    ●	Experience in project management including creating Gantt charts, data collection, 
+        systematic problem solving, and creating a project implementation plan
+    </skill>
+</skills>

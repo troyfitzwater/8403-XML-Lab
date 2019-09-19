@@ -1,16 +1,36 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="resume" elementFormDefault="qualified">
     <xs:element name="employment">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="job">
+                <xs:element name="job" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="title" type="xs:string"/>
-                            <xs:element name="employer" type="xs:string"/>
-                            <xs:element name="startDate" type="xs:string"/>
-                            <xs:element name="endDate" type="xs:string"/>
-                            <xs:element name="description" type="xs:string"/>
+                            <xs:element name="title" type="xs:string" />
+                            <xs:element name="employer" type="xs:string" />
+                            <xs:element name="location">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="start" type="xs:string" />
+                                        <xs:element name="end" type="xs:string" />    
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="time_employed">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="start" type="xs:string" />
+                                        <xs:element name="end" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="responsibilities">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="responsibility" type="xs:string" maxOccurs="unbounded" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
