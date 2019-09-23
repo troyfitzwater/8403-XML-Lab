@@ -3,7 +3,13 @@
     <xs:element name="skills">
         <xs:complexType>
             <xs:sequence>
-                <xs:element maxOccurs="unbounded" />
+                <xs:element maxOccurs="unbounded" name="skill" />
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="image_source" />
+                            <xs:element name="image_alt" />
+                        </xs:sequence>
+                    </xs:complexType>
             </xs:sequence>
     </xs:element>
 </xs:schema>

@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<skills xmlns="resume:education" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="../schemas/education.xsd">
+<?xml-stylesheet type="text/xsl" href="xsl/education.xsl"?>
+<education xmlns="resume:education">
     <school>
         <name>SUNY Alfred State College of Technology</name>
         <location>
             <city>Alfred</city>
             <state>NY</state>
-        <location>
-        <academic_level>4-year state university</academic_level>
+        </location>
         <degree status="in-progress">
             <name>BTech in Information Technology: Web Development</name>
             <years>
                 <start>2017</start>
-                <end>2020 (expected)</end>
+                <end>May 2020 (expected)</end>
             </years>
         </degree>
     </school>
@@ -21,8 +20,7 @@ xsi:schemaLocation="../schemas/education.xsd">
         <location>
             <city>Corning</city>
             <state>NY</state>
-        <location>
-        <academic_level>2-year state community college</academic_level>
+        </location>
         <degree status="completed">
             <name>AAS in Liberal Arts: Humanities and Social Sciences</name>
             <years>
@@ -36,10 +34,9 @@ xsi:schemaLocation="../schemas/education.xsd">
         <location>
             <city>Hammondsport</city>
             <state>NY</state>
-        <location>
-        <academic_level>high school</academic_level>
+        </location>
         <degree status="completed">
-            <name>Regends Diploma</name>
+            <name>Regents Diploma</name>
             <years>
                 <start>2000</start>
                 <end>2014</end>

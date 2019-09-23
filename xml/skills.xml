@@ -1,31 +1,44 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<skills xmlns="resume:skills" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="../schemas/skills.xsd">
+<?xml-stylesheet type="text/xsl" href="xsl/skills.xsl"?>
+<skills xmlns="resume:skills">
     <skill>
-        webStack.jpg
+        <image_source>images/html.png</image_source>
+        <image_alt>HTML</image_alt>
     </skill>
     <skill>
-        cSharp.jpg
+        <image_source>images/css.png</image_source>
+        <image_alt>CSS</image_alt>
     </skill>
     <skill>
-        aspNetCore.jpg
+        <image_source>images/javaScript.png</image_source>
+        <image_alt>JavaScript</image_alt>
     </skill>
     <skill>
-        php.png
+        <image_source>images/php.png</image_source>
+        <image_alt>PHP</image_alt>
     </skill>
     <skill>
-        laravel.jpg
+        <image_source>images/laravel.png</image_source>
+        <image_alt>Laravel</image_alt>
     </skill>
     <skill>
-        bootstrap.png
+        <image_source>images/bootstrap.png</image_source>
+        <image_alt>Bootstrap</image_alt>
     </skill>
     <skill>
-        ●git.png
+        <image_source>images/cSharp.svg</image_source>
+        <image_alt>cSharp</image_alt>
     </skill>
     <skill>
-    ●	●mysql.jpg
+        <image_source>images/dotNetCore.png</image_source>
+        <image_alt>Dot Net Core</image_alt>
     </skill>
     <skill>
-        ●projectMngmt.jpg
+        <image_source>images/mysql.webp</image_source>
+        <image_alt>MySql</image_alt>
+    </skill>
+    <skill>
+        <image_source>images/git.png</image_source>
+        <image_alt>Git</image_alt>
     </skill>
 </skills>

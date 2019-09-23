@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="xsl/about.xsl"?>
+<about xmlns="resume:about">
+    <greeting>
+        My name is Troy Fitzwater.
+        I am a full stack web developer who consistently will deliver robust and efficient solutions. 
+        I have experience being a team-player and working in diverse group of multidisciplinary teammates. 
+    </greeting>
+    <phone>(607) 661-5707</phone>
+    <email>fitzwatw@alfredstate.edu</email>
+</about>
