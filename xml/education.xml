@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <?xml-stylesheet type="text/xsl" href="xsl/education.xsl"?>
-<education xmlns="resume:education">
+<education xmlns="resume:education" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="xsd/education.xsd">
     <school>
         <name>SUNY Alfred State College of Technology</name>
         <location>

@@ -15,7 +15,6 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="academic_level" type="xs:string" />
                             <xs:element name="degree">            
                                 <xs:attribute name="status" type="xs:string" default="incomplete" /> 
                                 <xs:complexType>

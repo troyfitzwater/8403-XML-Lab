@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <?xml-stylesheet type="text/xsl" href="xsl/skills.xsl"?>
-<skills xmlns="resume:skills">
+<skills xmlns="resume:skills" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="xsd/skills.xsd">>
     <skill>
         <image_source>images/html.png</image_source>
         <image_alt>HTML</image_alt>

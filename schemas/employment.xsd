@@ -11,26 +11,13 @@
                             <xs:element name="location">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="start" type="xs:string" />
-                                        <xs:element name="end" type="xs:string" />    
+                                        <xs:element name="city" type="xs:string" />
+                                        <xs:element name="state" type="xs:string" />    
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="time_employed">
-                                <xs:complexType>
-                                    <xs:sequence>
-                                        <xs:element name="start" type="xs:string" />
-                                        <xs:element name="end" type="xs:string" />
-                                    </xs:sequence>
-                                </xs:complexType>
-                            </xs:element>
-                            <xs:element name="responsibilities">
-                                <xs:complexType>
-                                    <xs:sequence>
-                                        <xs:element name="responsibility" type="xs:string" maxOccurs="unbounded" />
-                                    </xs:sequence>
-                                </xs:complexType>
-                            </xs:element>
+                            <xs:element name="time_employed" />
+                            <xs:element name="responsibility" />
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <?xml-stylesheet type="text/xsl" href="xsl/about.xsl"?>
-<about xmlns="resume:about">
+<about xmlns="resume:about" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="xsd/activities.xsd">
     <greeting>
         My name is Troy Fitzwater.
         I am a full stack web developer who consistently will deliver robust and efficient solutions. 

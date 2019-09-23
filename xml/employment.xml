@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <?xml-stylesheet type="text/xsl" href="xsl/employment.xsl"?>
-<employment xmlns="resume:employment">
+<employment xmlns="resume:employment" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="xsd/employment.xsd">>
     <job>
         <title>Restaurant Staff</title>
         <employer>Pleasnt Valley Inn</employer>
