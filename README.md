@@ -1,1 +1,1 @@
-# XML Lab for CISY 8403 Web Applications at SUNY Alfred State College
+# Interface for my resume based off of styling XML through XSLT and CSS Grid.
